@@ -1,0 +1,8 @@
+:
+	
+
+wenn wahr, dann:
+wenn falsch, dann:
+sonst:
+
+schreibeZeile("ok").

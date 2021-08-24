@@ -1,0 +1,35 @@
+wenn wahr, dann:
+	schreibeZeile("wenn").
+wenn aber wahr, dann:
+	schreibeZeile("wenn aber").
+sonst:
+	schreibeZeile("sonst").
+
+wenn falsch, dann:
+	schreibeZeile("wenn").
+wenn aber wahr, dann:
+	schreibeZeile("wenn aber").
+sonst:
+	schreibeZeile("sonst").
+
+wenn falsch, dann:
+	schreibeZeile("wenn").
+wenn aber falsch, dann:
+	schreibeZeile("wenn aber").
+sonst:
+	schreibeZeile("sonst").
+
+
+wenn wahr, dann:
+	wenn falsch, dann:
+		schreibeZeile("bad").
+	sonst:
+		schreibeZeile("ok").
+
+wenn falsch, dann:
+	wenn falsch, dann:
+		schreibeZeile("bad").
+	sonst:
+		schreibeZeile("ok").
+sonst:
+	schreibeZeile("ok").

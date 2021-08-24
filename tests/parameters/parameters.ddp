@@ -1,0 +1,10 @@
+die Funktion summe(Zahl a, Zahl b) vom Typ Zahl macht:
+	gib a plus b zurück.
+
+schreibeZeile(summe(68, 1)).
+
+die Funktion foo(Zeichenkette x, Zahl n) macht:
+	schreibeZeile(x).
+	schreibeZeile(n).
+
+foo("Hallo", 1).

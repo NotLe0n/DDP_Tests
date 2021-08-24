@@ -1,0 +1,16 @@
+falsch
+wahr
+wahr
+falsch
+wahr
+falsch
+falsch
+falsch
+falsch
+wahr
+wahr
+wahr
+falsch
+falsch
+wahr
+wahr

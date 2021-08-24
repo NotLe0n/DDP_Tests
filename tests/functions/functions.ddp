@@ -1,0 +1,10 @@
+die Funktion foo() macht:
+	schreibeZeile("foo").
+
+foo().
+
+die Funktion bar() vom Typ Zahl macht:
+	schreibeZeile("bar").
+	gib 1 zurück.
+
+schreibeZeile(bar()).

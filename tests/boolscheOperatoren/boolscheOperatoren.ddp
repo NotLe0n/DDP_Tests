@@ -1,0 +1,8 @@
+schreibeZeile(wahr und falsch). //expect "falsch"
+schreibeZeile(wahr oder falsch). //expect "wahr"
+schreibeZeile(nicht wahr). //expect "falsch"
+schreibeZeile(nicht falsch). //expect "wahr"
+schreibeZeile(nicht wahr und falsch). //expect "falsch"
+schreibeZeile(wahr und nicht falsch). //expect "wahr"
+schreibeZeile(nicht wahr oder wahr). //expect "wahr"
+schreibeZeile(nicht wahr oder falsch). //expect "falsch"

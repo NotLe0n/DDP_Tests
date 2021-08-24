@@ -1,0 +1,5 @@
+schreibeZeile(1 plus 1). //expect 2
+schreibeZeile(3 mal 5). //expect 15
+schreibeZeile(8 durch 2). //expect 4
+schreibeZeile(5 minus 3). //expect 2
+schreibeZeile(3 hoch 3). //expect 27

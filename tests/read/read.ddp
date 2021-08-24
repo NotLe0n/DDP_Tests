@@ -1,0 +1,9 @@
+die Zeichenkette test ist leseZeile().
+
+schreibeZeile(test).
+
+das Zeichen c ist 'h'.
+
+solange c ungleich '.' ist, mache:
+	c ist lese().
+	schreibe(c).

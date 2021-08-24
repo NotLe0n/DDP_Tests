@@ -1,0 +1,4 @@
+//comment
+schreibeZeile("ok"). //expect ok
+// comment
+//print "ok".
