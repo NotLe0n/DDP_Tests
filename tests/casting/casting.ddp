@@ -31,4 +31,5 @@ schreibeZeile(zuBoolean(69,0054)).
 schreibeZeile(zuBoolean(wahr)).
 schreibeZeile(zuBoolean(falsch)).
 schreibeZeile(zuBoolean('E')).
+schreibeZeile(zuBoolean('w')).
 schreibeZeile(zuBoolean("wahr")).
