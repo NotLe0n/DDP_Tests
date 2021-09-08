@@ -1,9 +1,9 @@
-die Zeichenkette test ist leseZeile().
+der Text test ist leseZeile().
 
 schreibeZeile(test).
 
-das Zeichen c ist 'h'.
+der Buchstabe b ist 'h'.
 
-solange c ungleich '.' ist, mache:
-	c ist lese().
-	schreibe(c).
+solange b ungleich '.' ist, mache:
+	b ist lese().
+	schreibe(b).

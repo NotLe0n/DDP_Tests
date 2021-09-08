@@ -3,7 +3,7 @@ die Funktion summe(Zahl a, Zahl b) vom Typ Zahl macht:
 
 schreibeZeile(summe(68, 1)).
 
-die Funktion foo(Zeichenkette x, Zahl n) macht:
+die Funktion foo(Text x, Zahl n) macht:
 	schreibeZeile(x).
 	schreibeZeile(n).
 

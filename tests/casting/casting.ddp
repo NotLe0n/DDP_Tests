@@ -1,9 +1,9 @@
-schreibeZeile(zuZeichenkette(69)).
-schreibeZeile(zuZeichenkette(69,02)).
-schreibeZeile(zuZeichenkette(wahr)).
-schreibeZeile(zuZeichenkette(falsch)).
-schreibeZeile(zuZeichenkette('c')).
-schreibeZeile(zuZeichenkette("Hallo")).
+schreibeZeile(zuText(69)).
+schreibeZeile(zuText(69,02)).
+schreibeZeile(zuText(wahr)).
+schreibeZeile(zuText(falsch)).
+schreibeZeile(zuText('c')).
+schreibeZeile(zuText("Hallo")).
 
 schreibeZeile(zuZahl(69)).
 schreibeZeile(zuZahl(69,034)).
@@ -19,12 +19,12 @@ schreibeZeile(zuKommazahl(falsch)).
 schreibeZeile(zuKommazahl('E')).
 schreibeZeile(zuKommazahl("420,420")).
 
-schreibeZeile(zuZeichen(69)).
-schreibeZeile(zuZeichen(69,0034)).
-schreibeZeile(zuZeichen(wahr)).
-schreibeZeile(zuZeichen(falsch)).
-schreibeZeile(zuZeichen('E')).
-schreibeZeile(zuZeichen("Hallo")).
+schreibeZeile(zuBuchstabe(69)).
+schreibeZeile(zuBuchstabe(69,0034)).
+schreibeZeile(zuBuchstabe(wahr)).
+schreibeZeile(zuBuchstabe(falsch)).
+schreibeZeile(zuBuchstabe('E')).
+schreibeZeile(zuBuchstabe("Hallo")).
 
 schreibeZeile(zuBoolean(69)).
 schreibeZeile(zuBoolean(69,0054)).
