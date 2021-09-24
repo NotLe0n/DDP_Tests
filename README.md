@@ -11,3 +11,6 @@ Oder einfach die DDP-Implementation auf die .exe ziehen. <br>
      alt="ddp icon"
      align="left"
 />
+
+Die Tests die mit dem aktuellen Github-Release kommen sind vielleicht nicht aktuell!
+Für aktuelle Tests einfach das Repo klonen und den tests Ordner in denselben Ordner wie die ddp_tests.exe platzieren.
