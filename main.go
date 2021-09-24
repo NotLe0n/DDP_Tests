@@ -53,6 +53,7 @@ func main() {
 	failed := 0
 	for _, test := range tests {
 		cmd := exec.Command(ddpImplementation, test.path)
+		cmd.Dir = filepath.Dir(test.path)
 		var (
 			stdout bytes.Buffer
 			stderr bytes.Buffer
