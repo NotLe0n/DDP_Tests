@@ -1,0 +1,17 @@
+schreibeZeile(Länge("Hallo Welt!")). //expect 11
+schreibeZeile(Zuschneiden("Hallo Welt!", 2, 5)). //expect "llo W"
+
+schreibeZeile(Spalten("1, 2, 3, 4, 5", ", ")). //expect [1; 2; 3; 4; 5]
+schreibeZeile(Spalten("Hallo Welt!", ' ')). //expect ["Hallo"; "Welt!"]
+
+schreibeZeile(Ersetzen("Hallo Welt!", "Hallo", "Tschüss")). //expect Tschüss Welt!
+schreibeZeile(Ersetzen("Hallo Welt!", 'l', '1')). //expect "Ha11o We1t!"
+
+schreibeZeile(Entfernen("Hallo Welt!", 2, 6)). //expect "Halt!"
+
+schreibeZeile(Einfügen("Hallo Welt!", 2, "hi")). //expect "Hahillo Welt!"
+
+schreibeZeile(Enthält("Hallo Welt!", "amon")). //expect falsch
+schreibeZeile(Enthält("Hallo Welt!", 'a')). //expect wahr
+
+schreibeZeile(Beschneiden("Hallo Welt!      ")).

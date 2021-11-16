@@ -1,0 +1,11 @@
+11
+llo W
+["1"; "2"; "3"; "4"; "5"]
+["Hallo"; "Welt!"]
+Tschüss Welt!
+Ha11o We1t!
+Halt!
+Hahillo Welt!
+falsch
+wahr
+Hallo Welt!
