@@ -1,0 +1,9 @@
+schreibeZeile(Sinus von 2,4).
+schreibeZeile(Kosinus von 2,4).
+schreibeZeile(Tangens von 2,4).
+schreibeZeile(Arkussinus von 2,4).
+schreibeZeile(Arkuskosinus von 2,4).
+schreibeZeile(Arkustangens von 2,4).
+schreibeZeile(Hyperbelsinus von 2,4).
+schreibeZeile(Hyperbelkosinus von 2,4).
+schreibeZeile(Hyperbeltangens von 2,4).
