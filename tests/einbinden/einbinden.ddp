@@ -1,0 +1,4 @@
+binde "einbinden2" ein.
+
+foo().
+schreibeZeile("Tschüss Welt!").

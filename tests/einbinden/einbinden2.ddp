@@ -1,0 +1,4 @@
+die Funktion foo() macht:
+	schreibeZeile("Hallo Welt!").
+
+schreibeZeile("test").
