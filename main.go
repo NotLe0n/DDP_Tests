@@ -24,6 +24,7 @@ type Test struct {
 func main() {
 	defer fmt.Scanln()
 	ddpImplementation := os.Args[1]
+
 	ex, err := os.Executable()
 	if err != nil {
 		log.Fatal()
@@ -35,7 +36,9 @@ func main() {
 		log.Println("tests are not present: " + err.Error())
 		return
 	}
+
 	tests := make([]Test, len(directory))
+
 	for i, dir := range directory {
 		if dir.IsDir() {
 			out, err := ioutil.ReadFile(path + "/tests/" + dir.Name() + "/" + dir.Name() + "_output.txt")
@@ -54,6 +57,7 @@ func main() {
 	for _, test := range tests {
 		cmd := exec.Command(ddpImplementation, test.path)
 		cmd.Dir = filepath.Dir(test.path)
+
 		var (
 			stdout bytes.Buffer
 			stderr bytes.Buffer
@@ -84,6 +88,7 @@ func main() {
 					fmt.Print(string(r))
 				}
 			}
+			fmt.Print("\n")
 
 			color.Unset()
 			failed++
@@ -99,6 +104,7 @@ func main() {
 	} else {
 		color.Set(color.FgGreen)
 	}
+
 	fmt.Println(fmt.Sprint(len(tests)-failed) + " out of " + fmt.Sprint(len(tests)) + " succeeded!")
 	color.Unset()
 }
