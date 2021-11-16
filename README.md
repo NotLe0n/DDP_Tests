@@ -14,3 +14,13 @@ Oder einfach die DDP-Implementation auf die .exe ziehen. <br>
 
 Die Tests die mit dem aktuellen Github-Release kommen sind vielleicht nicht aktuell!
 Für aktuelle Tests einfach das Repo klonen und den tests Ordner in denselben Ordner wie die ddp_tests.exe platzieren.
+<br>
+<br>
+<br>
+
+***
+## Mitwirken 
+- Erstelle ein Fork von diesem Repo.
+- Klone deinen Fork.
+- Führe `go build .` im Terminal aus.
+- Nun kannst du das Programm bearbeiten oder neue Tests hinzufügen und deine Änderungen per Pull Request einreichen!
