@@ -1,0 +1,18 @@
+schreibeZeile(Min(5, 2)). //expect 2
+schreibeZeile(Min(2, 5)). //expect 2
+
+schreibeZeile(Max(2, 5)). //expect 5
+schreibeZeile(Max(5, 2)). //expect 5
+
+schreibeZeile(Clamp(3, 2, 4)). //expect 3
+schreibeZeile(Clamp(1, 2, 4)). //expect 2
+schreibeZeile(Clamp(4, 2, 4)). //expect 4
+
+schreibeZeile(Trunkiert(5,2)). //expect 5
+
+schreibeZeile(Rund(5,412, 1)). //expect 5,4
+schreibeZeile(Rund(5,412, 2)). //expect 5,41
+
+schreibeZeile(Decke(5,412)). //expect 6
+
+schreibeZeile(Boden(5,412)). //expect 5
