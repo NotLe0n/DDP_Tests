@@ -2,3 +2,8 @@
 schreibeZeile("ok"). //expect ok
 // comment
 //print "ok".
+/*
+block comment
+schreibeZeile("no").
+*/
+schreibeZeile("ok"). //expect ok
